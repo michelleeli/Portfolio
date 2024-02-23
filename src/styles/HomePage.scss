@@ -1,25 +1,68 @@
-html {
-    background-color: rgb(251, 246, 236);
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-.home {
-    height: 50vh;
-    background: -webkit-linear-gradient( to bottom, rgb(239, 204, 250), rgb(241, 183, 203), rgb(251, 246, 236));
-    background: -moz-linear-gradient( to bottom, rgb(239, 204, 250), rgb(241, 183, 203), rgb(251, 246, 236));
-    background: -ms-linear-gradient( to bottom, rgb(239, 204, 250), rgb(241, 183, 203), rgb(251, 246, 236));
-    background: -o-linear-gradient( to bottom, rgb(239, 204, 250), rgb(241, 183, 203), rgb(251, 246, 236));
-    background: linear-gradient( to bottom, rgb(239, 204, 250), rgb(241, 183, 203), rgb(251, 246, 236));
-    text-align: center;
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    padding: 3vw;
 }
 
-#title {
-    padding-top: 10vh;
-    color: rgb(191, 77, 149);
-    font-family: "Oswald", sans-serif;
-    font-size: 12vh; 
-    font-weight: 600;
+.navigation a {
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(110, 190, 239);
+    margin: 0 2vw;
+    padding: 2vh 2vw;
 }
 
-#title-caption {
-    font-family: "Oswald", sans-serif;
+.navigation a:hover,
+.navigation a.active {
+    background-color: rgb(110, 190, 239);
+    border-radius: 20px;
+    margin: 0 2vw;
+    padding: 2vh 2vw;
+    color: white;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color:rgb(177, 141, 165);
+    text-shadow: 2px 2px 4px rgba(88, 88, 88, 0.2);
+}
+
+#mountain1,
+#mountain2 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#mountain3,
+#mountain4,
+#mountain5,
+#bird {
+    position:absolute;
+    top: 0;
+    right: 0%;
+    width: 100%;
 }
