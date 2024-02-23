@@ -60,6 +60,7 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
+  background-color: rgb(237, 231, 223);
 }
 
 header {
@@ -72,22 +73,29 @@ header {
   align-items: center;
   z-index: 100;
   padding: 3vw;
+  padding-top: 1.5vw;
+}
+
+.navigation {
+  background-color: rgba(217, 212, 210, 0.317);
+  padding: 2.5vh;
+  border-radius: 30px;
 }
 
 .navigation a {
   text-decoration: none;
   border-radius: 20px;
-  color: rgb(110, 190, 239);
-  margin: 0 2vw;
-  padding: 2vh 2vw;
+  color: rgb(125, 181, 167);
+  margin: 0 1vw;
+  padding: 1vh 1vw;
 }
 
 .navigation a:hover,
 .navigation a.active {
-  background-color: rgb(110, 190, 239);
+  background-color: rgb(125, 181, 167);
   border-radius: 20px;
-  margin: 0 2vw;
-  padding: 2vh 2vw;
+  margin: 0 1vw;
+  padding: 1vh 1vw;
   color: white;
 }
 
@@ -96,7 +104,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 98vh;
+  height: 100vh;
 }
 
 #text {
@@ -122,4 +130,29 @@ header {
   top: 0;
   right: 0%;
   width: 100%;
+}
+
+.projects {
+  position: relative;
+  padding: 2.5vw;
+  display: grid;
+  background-color: rgb(237, 231, 223);
+  grid-template-columns: 1fr 1fr;
+}
+
+.projects h2 {
+  font-size: 5em;
+}
+
+.projects > * {
+  height: 30vh;
+  background-color: rgb(136, 177, 163);
+  border-radius: 20px;
+  margin: 3vh;
+  padding: 3vw;
+}
+
+.projects img {
+  width: 30vw;
+  object-fit: cover;
 }
