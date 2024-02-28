@@ -86,14 +86,14 @@ header {
 .navigation a {
   text-decoration: none;
   border-radius: 20px;
-  color: rgb(231, 180, 214);
+  color: rgb(209, 113, 146);
   margin: 0 1vw;
   padding: 1vh 1vw;
 }
 
 .navigation a:hover,
 .navigation a.active {
-  background-color: rgb(224, 183, 210);
+  background-color: rgb(220, 115, 152);
   border-radius: 20px;
   margin: 0 1vw;
   padding: 1vh 1vw;
@@ -110,8 +110,9 @@ header {
 
 #text {
   position: absolute;
-  font-size: 5em;
-  color: rgb(90, 90, 90);
+  font-family: "Sacramento", cursive;
+  font-size: 5.5em;
+  color: rgb(86, 86, 86);
   text-shadow: 2px 2px 4px rgba(88, 88, 88, 0.2);
 }
 
