@@ -72,7 +72,6 @@ header {
   justify-content: center;
   align-items: center;
   z-index: 100;
-  padding: 3vw;
   padding-top: 1.5vw;
 }
 
@@ -140,23 +139,24 @@ header {
   position: relative;
   padding: 2.5vw;
   display: grid;
-  background-color: rgb(237, 231, 223);
-  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  max-height: 100%;
 }
 
 .projects h2 {
   font-size: 5em;
+  color: white;
 }
 
 .projects > * {
-  height: 30vh;
-  background-color: rgb(229, 208, 216);
+  width: 93%;
+  height: 90%;
+  background-color: rgb(203, 131, 158);
   border-radius: 20px;
-  margin: 3vh;
-  padding: 3vw;
+  margin: 1vw;
 }
 
 .projects img {
-  width: 30vw;
   object-fit: cover;
+  border: solid 1px black;
 }
