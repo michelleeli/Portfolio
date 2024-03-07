@@ -80,33 +80,36 @@ header {
 .projects {
     position: relative;
     padding: 2.5vw;
-    display: grid;
+    // display: grid;
     background-color: rgb(255, 255, 255);
-    grid-template-columns: 1fr 1fr;
+    // grid-template-columns: 1fr 1fr;
+    max-height: 100vh;
 }
+
 
 .projects h2 {
     font-size: 5em;
 }
 
 .projects > * {
-    height: 50vh;
-    background-color: #c996b7;
+    // background-color: #b77388;
     border-radius: 5px;
-    margin: 3vh;
+    margin: auto;
     padding: 2vh;
+    height: 50vh;
+    display: flex;
+    width: 70%;
+}
+
+.description {
+    height: 50vh;
+    width: 40vw;
+    background-color: #D7E5F0;
 }
 
 .projects > *:hover {
     scale: 105%;
     cursor: pointer;
-}
-
-.projects img {
-    max-height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
 }
 
 .browser {
@@ -129,4 +132,12 @@ header {
     width: 75%;
     border: 1px solid black;
     border-radius: 15px;
+}
+
+#journease > .description {
+    background-color: #F4DAE0;
+}
+
+#journease {
+    text-align: right;
 }
