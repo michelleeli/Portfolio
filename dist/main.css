@@ -72,7 +72,6 @@ header {
   justify-content: center;
   align-items: center;
   z-index: 100;
-  padding: 3vw;
   padding-top: 1.5vw;
 }
 
@@ -95,8 +94,6 @@ header {
 .navigation a.active {
   background-color: rgb(224, 183, 210);
   border-radius: 20px;
-  margin: 0 1vw;
-  padding: 1vh 1vw;
   color: white;
 }
 
@@ -140,7 +137,7 @@ header {
   position: relative;
   padding: 2.5vw;
   display: grid;
-  background-color: rgb(237, 231, 223);
+  background-color: rgb(255, 255, 255);
   grid-template-columns: 1fr 1fr;
 }
 
@@ -149,14 +146,43 @@ header {
 }
 
 .projects > * {
-  height: 30vh;
-  background-color: rgb(229, 208, 216);
-  border-radius: 20px;
+  height: 50vh;
+  background-color: #c996b7;
+  border-radius: 5px;
   margin: 3vh;
-  padding: 3vw;
+  padding: 2vh;
+}
+
+.projects > *:hover {
+  scale: 105%;
+  cursor: pointer;
 }
 
 .projects img {
-  width: 30vw;
+  max-height: 100%;
+  width: 100%;
   object-fit: cover;
+  border-radius: 5px;
+}
+
+.browser {
+  height: 4vh;
+  margin-bottom: 1vh;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5vh;
+}
+
+.browser > * {
+  margin: auto;
+}
+
+#website {
+  height: 2vh;
+  padding: 0.5vh;
+  width: 75%;
+  border: 1px solid black;
+  border-radius: 15px;
 }
