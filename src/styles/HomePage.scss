@@ -21,21 +21,21 @@ header {
 .navigation {
     background-color: rgba(217, 212, 210, 0.2);
     font-weight: 500;
-    padding: 2.5vh;
+    padding: 2vh;
     border-radius: 30px;
 }
 
 .navigation a {
     text-decoration: none;
     border-radius: 20px;
-    color: rgb(231, 180, 214);
+    color: rgb(219, 151, 165);
     margin: 0 1vw;
     padding: 1vh 1vw;
 }
 
 .navigation a:hover,
 .navigation a.active {
-    background-color: rgb(224, 183, 210);
+    background-color: rgb(219, 151, 165);
     border-radius: 20px;
 
     color: white;
@@ -81,9 +81,9 @@ header {
     position: relative;
     padding: 2.5vw;
     // display: grid;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 229, 229);
     // grid-template-columns: 1fr 1fr;
-    max-height: 100vh;
+    max-height: 160vh;
 }
 
 
@@ -102,9 +102,12 @@ header {
 }
 
 .description {
-    height: 50vh;
+    height: 41vh;
     width: 40vw;
+    padding: 2.5vw;
     background-color: #D7E5F0;
+    color: white;
+    font-family: "Sacramento", cursive;
 }
 
 .projects > *:hover {
@@ -134,8 +137,17 @@ header {
     border-radius: 15px;
 }
 
+#luxebnb > .description {
+    background-color: #D694A3;
+}
+
 #journease > .description {
     background-color: #F4DAE0;
+    color: grey;
+}
+
+#smilemap > .description {
+    background-color: #DBBCD3;
 }
 
 #journease {
