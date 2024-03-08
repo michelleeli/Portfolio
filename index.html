@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <body>
     <header>
-      <nav class="navigation">
-        <a href="#" class="active">Home</a>
-        <a href="#">Projects</a>
-        <a href="#">Skills</a>
-        <a href="#">Interests</a>
-        <a href="#">Contact Me</a>
+      <nav class="navigation" id="navigation">
+        <a href="/" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact Me</a>
       </nav>
     </header>
 
@@ -35,42 +35,86 @@
       <img src="assets/bird2.png" id="bird">
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="project" id="luxebnb">
-        <h2 class="description">Luxebnb</h2>
+        <div class="description">
+          <h2>Luxebnb</h2>
+          <h3>Fullstack clone of Airbnb, a web application for short and long-term homestays, specifically for luxury properties</h3>
+          <h3>Technologies used:</h3>
+          <img src="https://skillicons.dev/icons?i=ruby,react,javascript,redux,css,postgres,html,git&theme=light"/>
+
+        </div>
         <img src="assets/luxebnb1.png">
       </div>
       <div class="project" id="journease">
-        <!-- <div class="browser">
-          <i class="fas fa-arrow-left"></i>
-          <i class="fas fa-arrow-right"></i>
-          <i class="fas fa-arrows-rotate"></i>
-          <div id="website">https://journease.onrender.com/</div>
-          <i class="fas fa-star"></i>
-        </div> -->
         <img src="assets/journease1.png">
-        <h2 class="description">Journease</h2>
+        <div class="description">
+          <h2>Journease</h2>
+          <h3>Web application to create detailed travel itineraries promoting collaborative planning</h3>
+          <h3>Technologies used:</h3>
+          <img src="https://skillicons.dev/icons?i=mongo,express,javascript,react,redux,css,html,git&theme=light"/>
+        </div>
       </div>
       <div class="project" id="smilemap">
-        <!-- <div class="browser">
-          <i class="fas fa-arrow-left"></i>
-          <i class="fas fa-arrow-right"></i>
-          <i class="fas fa-arrows-rotate"></i>
-          <div id="website">https://smilemap.onrender.com/</div>
-          <i class="fas fa-star"></i>
-        </div> -->
-        <h2 class="description">Smile Map</h2>
+        <div class="description">
+          <h2>Smile Map</h2>
+          <h3>Data visualization of the World Happiness Report via 2D choropleth map, bar graph, and polar area chart</h3>
+          <h3>Technologies used:</h3>
+          <img src="https://skillicons.dev/icons?i=javascript,css,html,git&theme=light"/>
+        </div>
         <img src="assets/smileemap1.png">
       </div>
     </section>
 
-    <section class="skills">
-
+    <section id="skills">
+      <img src="https://skillicons.dev/icons?i=git,python,ruby,react,js,redux,express,nodejs,mongodb,css,postgres,mysql,html" />
+      <ul class="fa-ul mb-0">
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Ruby
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            React
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Javascript
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Redux
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Node.js
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            MongoDB
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Postgres
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            MySQL
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            CSS
+        </li>
+        <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            HTML
+        </li>
+    </ul>
     </section>
-    <section class="about">
+    <section id="about">
       
     </section>
-    <section class="contact">
+    <section id="contact">
       
     </section>
   </body>

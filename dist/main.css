@@ -63,6 +63,10 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   position: absolute;
   top: 0;
@@ -136,7 +140,7 @@ header {
 .projects {
   position: relative;
   padding: 2.5vw;
-  background-color: rgb(240, 229, 229);
+  background-color: rgb(243, 238, 238);
   max-height: 160vh;
 }
 
@@ -159,7 +163,11 @@ header {
   padding: 2.5vw;
   background-color: #D7E5F0;
   color: white;
+}
+
+.description h2 {
   font-family: "Sacramento", cursive;
+  margin-top: 3vh;
 }
 
 .projects > *:hover {
@@ -204,4 +212,18 @@ header {
 
 #journease {
   text-align: right;
+}
+
+#skills {
+  position: relative;
+  max-height: 30vh;
+  background-color: pink;
+}
+
+#about {
+  max-height: 50vh;
+}
+
+#contact {
+  max-height: 50vh;
 }
