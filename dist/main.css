@@ -227,3 +227,12 @@ header {
 #contact {
   max-height: 50vh;
 }
+
+.projects h3 {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+a {
+  text-decoration: none;
+}
