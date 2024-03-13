@@ -84,9 +84,8 @@ header {
 .projects {
     position: relative;
     padding: 2.5vw;
-    // display: grid;
-    background-color: rgb(243, 238, 238);
-    // grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(#AB6475, #cd94a0);
+    // background-color: rgb(243, 238, 238);
     max-height: 160vh;
 }
 
@@ -96,8 +95,6 @@ header {
 }
 
 .projects > * {
-    // background-color: #b77388;
-    border-radius: 5px;
     margin: auto;
     padding: 2vh;
     height: 50vh;
@@ -165,7 +162,7 @@ header {
 #skills {
     position: relative;
     max-height: 30vh;
-    background-color: pink;
+    background-color: #cd94a0;
 }
 
 #about {

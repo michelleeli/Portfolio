@@ -140,7 +140,7 @@ header {
 .projects {
   position: relative;
   padding: 2.5vw;
-  background-color: rgb(243, 238, 238);
+  background-image: linear-gradient(#AB6475, #cd94a0);
   max-height: 160vh;
 }
 
@@ -149,7 +149,6 @@ header {
 }
 
 .projects > * {
-  border-radius: 5px;
   margin: auto;
   padding: 2vh;
   height: 50vh;
@@ -217,7 +216,7 @@ header {
 #skills {
   position: relative;
   max-height: 30vh;
-  background-color: pink;
+  background-color: #cd94a0;
 }
 
 #about {
