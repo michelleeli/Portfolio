@@ -84,7 +84,7 @@ header {
 .projects {
     position: relative;
     padding: 2.5vw;
-    background-image: linear-gradient(#AB6475, #cd94a0);
+    background-image: linear-gradient(#AB6475, #f9c3ce);
     // background-color: rgb(243, 238, 238);
     max-height: 160vh;
 }
@@ -161,16 +161,22 @@ header {
 
 #skills {
     position: relative;
-    max-height: 30vh;
     background-color: #cd94a0;
+    text-align: center;
+}
+
+#skills li {
+    width: 10vw;
+    margin-left: ;
+    text-align: left;
 }
 
 #about {
-    max-height: 50vh;
+    position: relative;
 }
 
 #contact {
-    max-height: 50vh;
+    position:relative;
 }
 
 .projects h3 {
@@ -180,4 +186,9 @@ header {
 
 a {
     text-decoration: none;
+}
+
+#skills h2 {
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
 }

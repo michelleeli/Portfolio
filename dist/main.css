@@ -215,16 +215,22 @@ header {
 
 #skills {
   position: relative;
-  max-height: 30vh;
   background-color: #cd94a0;
+  text-align: center;
+}
+
+#skills li {
+  width: 10vw;
+  margin: auto;
+  text-align: left;
 }
 
 #about {
-  max-height: 50vh;
+  position: relative;
 }
 
 #contact {
-  max-height: 50vh;
+  position: relative;
 }
 
 .projects h3 {
@@ -234,4 +240,9 @@ header {
 
 a {
   text-decoration: none;
+}
+
+#skills h2 {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
 }
