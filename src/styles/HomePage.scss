@@ -81,6 +81,12 @@ header {
     width: 100%;
 }
 
+#pfp {
+    position: absolute;
+    width: 100%;
+    margin-top: -5vh;
+}
+
 .projects {
     position: relative;
     padding: 2.5vw;
@@ -167,7 +173,6 @@ header {
 
 #skills li {
     width: 10vw;
-    margin-left: ;
     text-align: left;
 }
 
@@ -186,9 +191,4 @@ header {
 
 a {
     text-decoration: none;
-}
-
-#skills h2 {
-    font-family: "Sacramento", cursive;
-    font-size: 5rem;
 }

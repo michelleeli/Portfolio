@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const cloud1 = document.getElementById('cloud1')
     const cloud2 = document.getElementById('cloud2')
     const bird = document.getElementById('bird')
+    const pfp = document.getElementById('pfp')
 
     window.addEventListener('scroll', ()=> {
         let value = window.scrollY;
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         bird.style.left = value * .5 + 'px'
         cloud2.style.left = value * -1 + 'px'
         cloud1.style.left = value * 1 + 'px'
+        pfp.style.bottom = value * 1 + 'px'
     })
 })
 
