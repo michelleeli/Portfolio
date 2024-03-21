@@ -91,7 +91,7 @@ header {
     position: relative;
     padding: 2.5vw;
     background-image: linear-gradient(#AB6475, #e298a9,#fee9ed);
-    max-height: 160vh;
+    max-height: 250vh;
 }
 
 
@@ -158,6 +158,10 @@ header {
 
 #smilemap > .description {
     background-color: #DBBCD3;
+}
+
+#wildwatch > .description {
+    background-color: #B27B94;
 }
 
 #journease {
