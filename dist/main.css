@@ -263,3 +263,37 @@ a {
   text-align: center;
   color: rgb(229, 106, 126);
 }
+
+#about-description {
+  background-color: #e298a9;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  padding: 2vw;
+  width: 45vw;
+  height: 60vh;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs > * {
+  width: 10vw;
+  padding: 1vw;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#skills {
+  background-color: #D694A3;
+}
+
+#fun-facts {
+  background-color: #B27B94;
+}
+
+#info {
+  background-color: #e298a9;
+}
