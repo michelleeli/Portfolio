@@ -227,9 +227,10 @@ header {
   position: relative;
   display: flex;
   background-image: linear-gradient(#fee9ed, white);
-  max-height: 100vh;
-  padding-top: 10vh;
+  height: 90vh;
+  padding-top: 5vh;
   padding-right: 2vw;
+  padding-top: 5vh;
   align-items: center;
 }
 
@@ -275,6 +276,8 @@ a {
 
 .tabs {
   display: flex;
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
 }
 
 .tabs > * {
@@ -296,4 +299,102 @@ a {
 
 #info {
   background-color: #e298a9;
+}
+
+#rubytext,
+#railstext,
+#javascripttext,
+#reacttext,
+#reduxtext,
+#csstext,
+#htmltext,
+#postgrestext,
+#mongotext,
+#expresstext {
+  display: none;
+}
+
+.devicon-ruby-plain:hover ~ #rubytext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-rails-plain:hover ~ #railstext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-javascript-plain:hover ~ #javascripttext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-react-original:hover ~ #reacttext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-redux-original:hover ~ #reduxtext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-html5-plain:hover ~ #htmltext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-css3-plain:hover ~ #csstext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-postgresql-plain:hover ~ #postgrestext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-express-original:hover ~ #expresstext {
+  display: block;
+  position: absolute;
+}
+
+.devicon-mongodb-plain:hover ~ #mongotext {
+  display: block;
+  position: absolute;
+}
+
+i {
+  font-size: 3rem;
+  border-radius: 5px;
+}
+
+#technologies {
+  display: none;
+}
+
+#journease p {
+  right: 4vw;
+}
+
+#contact {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  padding-top: 5vh;
+  background-image: linear-gradient(white, rgb(185, 116, 127));
+}
+
+.connect {
+  background-color: #d37b90;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  height: 10vh;
+  width: 50vw;
+  font-size: 5rem;
+  font-family: "Sacramento", cursive;
+  padding-top: 3vh;
+  padding-left: 5vw;
+  color: white;
 }
