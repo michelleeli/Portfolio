@@ -147,7 +147,7 @@ header {
   position: relative;
   padding: 2.5vw;
   background-image: linear-gradient(#AB6475, #e298a9, #fee9ed);
-  max-height: 250vh;
+  height: 215vh;
 }
 
 .projects h2 {
