@@ -327,7 +327,6 @@ i {
     justify-content: space-between;
     height: 100vh;
     padding-top: 5vh;
-    background-image: linear-gradient(white, rgb(185, 116, 127));
 }
 
 .connect {
@@ -341,4 +340,8 @@ i {
     padding-top: 3vh;
     padding-left: 5vw;
     color: white;
+}
+
+#connectphoto{
+    max-width: 100%;
 }
