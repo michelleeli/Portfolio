@@ -28,10 +28,39 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     function updateSkill(e) {
         about.style.backgroundColor = '#D694A3'
-        about.innerText = ""
-        const img = document.createElement("img");
-        img.src = "https://skillicons.dev/icons?i=git,python,ruby,react,js,redux,express,nodejs,mongodb,css,postgres,mysql,html&perline=4"
-        about.appendChild(img)
+        about.innerHTML = `
+        <i class="devicon-ruby-plain" ></i>
+        <p id="rubytext">Ruby</p>
+
+        <i class="devicon-rails-plain"></i>
+        <p id="railstext">Rails</p>
+
+        <i class="devicon-redux-original"></i>
+        <p id="reduxtext">Redux</p>
+
+        <i class="devicon-postgresql-plain"></i>
+        <p id="postgrestext">PostgreSQL</p>
+        
+        <i class="devicon-mongodb-plain"></i>
+        <p id="mongotext">MongoDB</p>
+
+        <i class="devicon-javascript-plain"></i>
+        <p id="javascripttext">Javascript</p>
+
+        <i class="devicon-react-original"></i>
+        <p id="reacttext">React</p>
+        
+        <i class="devicon-redux-original"></i>
+        <p id="reduxtext">Redux</p>
+
+        <i class="devicon-express-original"></i>
+        <p id="expresstext">Express</p> 
+        
+        <i class="devicon-css3-plain"></i>
+        <p id="csstext">CSS</p>
+        
+        <i class="devicon-html5-plain"></i>
+        <p id="htmltext">HTML</p>`
     }
 
     function updateInfo(e) {

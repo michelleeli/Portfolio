@@ -218,12 +218,16 @@ a {
     padding: 2vw;
     width: 45vw;
     height: 60vh;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 2rem;
 }
 
 .tabs {
     display: flex;
     font-family: "Sacramento", cursive;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color:white;
 }
 
 .tabs > * {
@@ -258,6 +262,8 @@ a {
 #mongotext,
 #expresstext {
     display: none;
+    margin-top: 2vh;
+    font-size: 1.5rem;
 }
 .devicon-ruby-plain:hover ~ #rubytext{
     display:block;
@@ -356,6 +362,28 @@ i {
     margin-top: 2vw;
 }
 
-a {
-    text-decoration: none;
+#contact a {
+    color: white;
+}
+
+.icons a {
+    font-size: 2rem;
+    background-color: #AB6475;
+    width: 20vw;
+    padding: 2vh;
+    border-radius: 20px;
+    color: white;
+    margin-right: 2vw;
+    padding-top: 3vh;
+}
+
+#email {
+    font-size: 2rem;
+    margin-top: 10vh;
+}
+
+.fa-envelope {
+    background-color: #AB6475;
+    padding: 1vw;
+    border-radius: 100px;
 }
