@@ -51,6 +51,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 #text {
@@ -325,8 +326,9 @@ i {
     position:relative;
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 88vh;
     padding-top: 5vh;
+    background-image: linear-gradient(white, rgb(235, 218, 227));
 }
 
 .connect {
@@ -344,4 +346,16 @@ i {
 
 #connectphoto{
     max-width: 100%;
+}
+
+.icons {
+    margin:5vw;
+}
+
+.icons > * {
+    margin-top: 2vw;
+}
+
+a {
+    text-decoration: none;
 }
