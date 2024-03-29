@@ -70,8 +70,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         about.style.backgroundColor = '#c75589'
         about.innerHTML = `
         <li> I love discovering new places and have traveled to more than 20 countries </li> 
-        <li>I grew up taking swimming and latin ballroom dance lessons. I was a cheerleader and dance team director in my academic years and now my favorite ways to stay active include going to the gym and taking pilates and zumba classes</li>
-        <li>My favorite genres are fiction novels and memoirs and my favorite podcasts are neuroscience and self help</li> 
+        <li>I grew up taking swimming and latin ballroom dance lessons. I was a cheerleader and dance team director in my academic years. Now my favorite ways to stay active include going to the gym and taking pilates and zumba classes</li>
+        <li>My favorite book genres are fiction novels and memoirs and my favorite podcasts are neuroscience and self help</li> 
         <li>I play the piano and spent my quarantine days learning how to play the ukelele </li> 
         <li>My favorite creative outlets are bullet journaling and creating lifestyle content</li>`
     }
