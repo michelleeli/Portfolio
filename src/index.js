@@ -30,48 +30,50 @@ document.addEventListener("DOMContentLoaded", async () => {
         about.style.backgroundColor = '#D694A3'
         about.innerHTML = `
         <i class="devicon-ruby-plain" ></i>
-        <p id="rubytext">Ruby</p>
+        <p class="visible" id="rubytext">Ruby</p>
 
         <i class="devicon-rails-plain"></i>
-        <p id="railstext">Rails</p>
+        <p class="visible" id="railstext">Rails</p>
 
         <i class="devicon-redux-original"></i>
-        <p id="reduxtext">Redux</p>
+        <p class="visible" id="reduxtext">Redux</p>
 
         <i class="devicon-postgresql-plain"></i>
-        <p id="postgrestext">PostgreSQL</p>
+        <p  class="visible" id="postgrestext">PostgreSQL</p>
         
         <i class="devicon-mongodb-plain"></i>
-        <p id="mongotext">MongoDB</p>
+        <p class="visible" id="mongotext">MongoDB</p>
 
         <i class="devicon-javascript-plain"></i>
-        <p id="javascripttext">Javascript</p>
+        <p class="visible" id="javascripttext">Javascript</p>
 
         <i class="devicon-react-original"></i>
-        <p id="reacttext">React</p>
-        
-        <i class="devicon-redux-original"></i>
-        <p id="reduxtext">Redux</p>
+        <p class="visible" id="reacttext">React</p>
 
         <i class="devicon-express-original"></i>
-        <p id="expresstext">Express</p> 
+        <p class="visible" id="expresstext">Express</p> 
         
         <i class="devicon-css3-plain"></i>
-        <p id="csstext">CSS</p>
+        <p class="visible" id="csstext">CSS</p>
         
         <i class="devicon-html5-plain"></i>
-        <p id="htmltext">HTML</p>`
+        <p class="visible" id="htmltext">HTML</p>`
     }
 
     function updateInfo(e) {
-        about.style.backgroundColor = '#e298a9'
+        about.style.backgroundColor = '#cd7dac'
 
         about.innerText = "Personal growth has always been the main driving force behind many of the decisions I make - including the decision to change careers from being a pharmacist to becoming a software engineer. I am grateful for the skills of critical thinking, problem solving, collaborative teamwork, and leadership that I have honed as a medical professional and am now able to apply to my work as a software engineer. It makes me excited to grow alongside the tech industry, work with others who share the same passions, and learn from those who have different interests than my own!"
     }
 
     function updateFacts(e) {
-        about.style.backgroundColor = '#B27B94'
-        about.innerText = 'I love discovering new places and have traveled to more than 20 countries, I grew up taking swimming and latin ballroom dance lessons. I was a cheerleader and dance team director in my academic years and now my favorite ways to stay active include going to the gym and taking pilates and zumba classes, My favorite genres are fiction novels and memoirs and my favorite podcasts are neuroscience and self help, I play the piano and spent my quarantine days learning how to play the ukelele, My favorite creative outlets are bullet journaling and creating lifestyle content'
+        about.style.backgroundColor = '#c75589'
+        about.innerHTML = `
+        <li> I love discovering new places and have traveled to more than 20 countries </li> 
+        <li>I grew up taking swimming and latin ballroom dance lessons. I was a cheerleader and dance team director in my academic years and now my favorite ways to stay active include going to the gym and taking pilates and zumba classes</li>
+        <li>My favorite genres are fiction novels and memoirs and my favorite podcasts are neuroscience and self help</li> 
+        <li>I play the piano and spent my quarantine days learning how to play the ukelele </li> 
+        <li>My favorite creative outlets are bullet journaling and creating lifestyle content</li>`
     }
     skills.addEventListener('click', updateSkill)
     info.addEventListener('click', updateInfo)
